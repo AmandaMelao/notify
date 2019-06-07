@@ -5,12 +5,34 @@ body{
                          'navbar navbar navbar navbar'
                          'section section aside aside'
                          'footer footer footer footer';
-    grid-template-rows: 15vh 30vh 70vh 20vh;      
+    grid-template-rows: 60vh 30vh 70vh 20vh;      
 }
 
 header{
     grid-area: header;
     background-image: url(imagem/banner.png);
+    background-size: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1{
+    color: white;
+    font-size: 28pt;
+    font-family: 'Pacifico', cursive;
+}
+
+h2{
+    color: white;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 nav{
