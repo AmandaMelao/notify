@@ -24,6 +24,12 @@ h1{
 }
 
 h2{
+    color: lime;
+    font-size: 28pt;
+    font-family: 'Pacifico', cursive;
+}
+
+h3{
     color: white;
     font-size: 20pt;
     font-family: 'Times New Roman', Times, serif;
@@ -34,6 +40,12 @@ header{
     justify-content: space-around;
     align-items: center;
 }
+
+/* .icones{
+    /* border-radius: 100%; */
+    /* border: 10px;
+    border-color: red;
+} */
 
 nav{
     grid-area: navbar;
